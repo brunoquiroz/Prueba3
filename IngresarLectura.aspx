@@ -50,7 +50,6 @@
                     <div class="form-group">
                         <asp:Button runat="server" ID="agregarBtn" Text="Agregar" CssClass="btn btn-primary" OnClick="agregarBtn_Click"/>
                     </div>
-
                 </div>
             </div>
         </div>
