@@ -41,7 +41,7 @@
                     </div>
                      <asp:requiredfieldvalidator id="RequiredFieldValidator4" forecolor="Red" errormessage="Ingresa valor lectura" controltovalidate="valorConsum" runat="server">
                 </asp:requiredfieldvalidator>         
-                    <asp:rangevalidator errormessage="Favor ingresar un valor entre 1 y 600" forecolor="Red" controltovalidate="valorConsum" minimumvalue="1" maximumvalue="600" runat="server">
+                    <asp:rangevalidator errormessage="Favor ingresar un numero valido" forecolor="Red" controltovalidate="valorConsum" minimumvalue="1" maximumvalue="600" runat="server">
             </asp:rangevalidator>
                     <asp:rangevalidator errormessage="Formato de la fecha mal ingresado" forecolor="Red" controltovalidate="hora" minimumvalue="0" maximumvalue="24" runat="server">
             </asp:rangevalidator>
